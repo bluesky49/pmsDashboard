@@ -1,18 +1,28 @@
 % Auto-generated: do not edit by hand
-\name{pmsComponent}
+\name{pMSComponent}
 
-\alias{pmsComponent}
+\alias{pMSComponent}
 
-\title{pmsComponent component}
+\title{PMSComponent component}
 
 \description{
 
 }
 
 \usage{
-pmsComponent(value=NULL)
+pMSComponent(value=NULL, id=NULL, newGirl=NULL, updateData=NULL, range=NULL, deleteID=NULL)
 }
 
 \arguments{
-\item{value}{Unnamed list. }
+\item{value}{Character. }
+
+\item{id}{Character. }
+
+\item{newGirl}{Named list. }
+
+\item{updateData}{Named list. }
+
+\item{range}{Numeric. }
+
+\item{deleteID}{Character. }
 }

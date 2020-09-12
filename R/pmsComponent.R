@@ -1,16 +1,16 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
-pmsComponent <- function(value=NULL) {
+pMSComponent <- function(value=NULL, id=NULL, newGirl=NULL, updateData=NULL, range=NULL, deleteID=NULL) {
     
-    props <- list(value=value)
+    props <- list(value=value, id=id, newGirl=newGirl, updateData=updateData, range=range, deleteID=deleteID)
     if (length(props) > 0) {
         props <- props[!vapply(props, is.null, logical(1))]
     }
     component <- list(
         props = props,
-        type = 'pmsComponent',
+        type = 'PMSComponent',
         namespace = 'dash_extra_ui_components',
-        propNames = c('value'),
+        propNames = c('value', 'id', 'newGirl', 'updateData', 'range', 'deleteID'),
         package = 'dashExtraUiComponents'
         )
 
